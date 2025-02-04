@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --orange: #F77500;
+    --grey: #6F6F6F;
+    --helvetica: helvetica;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5.75rem;
+}
+
+.headerImg{
+    height: 2.5rem;
+    width: 13.5rem;
+}
+
+.headerUl{
+    display: flex;
+}
+
+.headerLi{
+    padding: 0.938rem;
+    list-style: none;
+}
+
+.headerLi a {
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 1rem;
+    font-family: var(--helvetica);
+}
+
+.bloc1Container{
+    background: url(img/texture-paper.png);
+    background-color: #2C3962;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+}
+
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+h1{
+    color: var(--orange);
+    font-family: var(--helvetica);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1.25rem auto;
+}
+
+.contactButton{
+    background-color: var(--orange);
+    padding: 0.75rem 1.75rem;
+    border-radius: 2.5rem;
+}
+
+.contactButton a{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--helvetica);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bloc2Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc2Text{
+    font-size: 1.375rem;
+    text-align: center;
+    font-family: var(--helvetica);
+    color: var(--grey);
+    padding-top: 3.125rem;
+}
+
+.servicesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6.25rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14.75rem;
+    margin-top: 1.25rem;
+}
+
+.serviceImg{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.titleService{
+    margin: 0.625rem auto 1.25rem;
+    font-size: 0.938rem;
+    font-family: var(--helvetica);
+    color: #333333;
+}
+
+.textService{
+    color: var(--grey);
+    font-size: 0.688rem;
+    font-family: var(--helvetica);
+    text-align: center;
+}
+
+.bloc2Text2{
+    margin: 6.25rem auto 3.125rem;
+    width: 35.438rem;
+    text-align: center;
+    font-family: var(--helvetica);
+    font-size: 1.25rem;
+}
+
+.bloc3Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/image-de-presentation.bmp);
+    background-size: cover;
+    height: 34.625rem;
+}
+
+.whatIDoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem;
+    width: 33.438rem;
+    background-color: rgba(151, 128, 88, 0.7);
+}
+
+h3{
+    font-size: 1.375rem;
+    font-family: var(--helvetica);
+    color: var(--orange);
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.whatIDoText{
+    font-size: 0.688rem;
+    font-family: var(--helvetica);
+    margin-bottom: 0.625rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contactLink{
+    font-size: 0.688rem;
+    font-family: var(--helvetica);
+    color: #FFFFFF;
+}
+
+.bloc4Container{
+    background: url(img/lines-h2-bg.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "title tilte"
+                         "c1 c2"
+                         "c3 c4";
+}
+
+.titleContainer{
+    grid-area: title / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc4Title{
+    color: var(--grey);
+    font-family: var(--helvetica);
+    width: 29.75rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 6.25rem auto 3.125rem;
+}
+
+.container1{
+    grid-area: c1;
+}
+
+.container2{
+    grid-area: c2;
+}
+
+.container3{
+    grid-area: c3;
+}
+
+.container4{
+    grid-area: c4;
+}
+
+.container1,
+.container3{
+    margin-left: auto;
+    margin-right: 0.652rem;
+}
+
+.realContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18.75rem;
+    margin-bottom: 3.125rem;
+}
+
+.imgReal{
+    width: 16.875rem;
+    height: 16.875rem;
+}
+
+#img3{
+    margin-top: -0.75rem;
+}
+
+.realTitle{
+    color: #333333;
+    font-size: 0.938rem;
+    font-family: var(--helvetica);
+    margin: 0.625rem auto 1.25rem;
+}
+
+.textReal{
+    width: 16.875rem;
+    text-align: center;
+    color: var(--grey);
+    font-size: 0.688rem;
+    font-family: var(--helvetica);
+}
+
+.bloc5Container{
+    margin-top: 6.25rem;
+    background: url(img/texture-paper.png);
+    background-color: #2C3962;
+    height: 22.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc5Title{
+    text-align: center;
+    color: var(--orange);
+    font-family: var(--helvetica);
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-bottom: 3.125rem;
+}
+
+.footerContainer{
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText{
+    margin: 0.652rem auto;
+    color: #FFFFFF;
+    font-size: 0.688rem;
+    font-family: var(--helvetica);
+}
+
+.footerIcon{
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: auto 1.563rem;
+}
+
+.contactContainer{
+    background: url(img/texture-paper.png);
+    background-color: var(--orange);
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactTitle{
+    color: #FFFFFF;
+    font-family: var(--helvetica);
+}
+
+.contactText{
+    color: #FFFFFF;
+    font-family: var(--helvetica);
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+.formContainer{
+    margin-top: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-family: var(--helvetica);
+    font-size: 1rem;
+    color: #575757;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formButton{
+    margin: 1.25rem auto;
+    background-color: var(--orange);
+    padding: 0.75rem 1.75rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.textInfo{
+    text-align: center;
+    font-size: 0.688rem;
+    font-family: var(--helvetica);
+    color: #575757;
+    margin-bottom: 3.125rem;
+}
+
+/* Pour les petits écrans (moins de 600px) */
+@media (max-width: 600px) {
+    .headerContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .headerImg {
+        width: 10rem;
+        height: auto;
+    }
+
+    .headerUl {
+        flex-direction: column;
+    }
+
+    .headerLi {
+        padding: 0.5rem;
+    }
+
+    .bloc1Container {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .bloc2Container {
+        padding: 1.25rem;
+    }
+
+    .servicesContainer {
+        flex-direction: column;
+        padding: 0 1.25rem;
+    }
+
+    .service {
+        width: auto;
+        margin: 1.25rem 0;
+    }
+
+    .bloc2Text2{
+        width: auto;
+    }
+
+    .bloc3Container {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .whatIDoContainer {
+        width: 100%;
+        padding: 1.25rem;
+    }
+
+    .bloc4Container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "title"
+            "c1"
+            "c2"
+            "c3"
+            "c4";
+    }
+
+    .container1,
+    .container3{
+        margin: auto;
+    }
+
+    .realContainer {
+        width: auto;
+        margin-bottom: 2rem;
+    }
+
+    .imgReal {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #img3{
+        margin-top: auto;
+    }
+
+    .bloc5Container {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .footerContainer {
+        padding: 1rem 0;
+    }
+
+    .footerText {
+        font-size: 0.75rem;
+    }
+
+    .reseauxContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerIcon {
+        margin-bottom: 5px;
+    }
+
+    .contactContainer {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #labelMess {
+        text-align: center;
+    }
+
+    .formButton {
+        padding: 0.75rem 1.25rem;
+    }
+
+    .textInfo {
+        font-size: 0.75rem;
+    }
+}
+
+/* Pour les tablettes (de 600px à 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .headerContainer {
+        flex-direction: row;
+    }
+
+    .headerImg {
+        width: 12rem;
+    }
+
+    .headerUl {
+        flex-direction: row;
+    }
+
+    .bloc1Container {
+        height: auto;
+        padding: 3rem;
+    }
+
+    .servicesContainer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 3rem;
+    }
+
+    .service {
+        width: 12rem;
+        margin: 1.25rem;
+    }
+
+    .bloc3Container {
+        flex-direction: column;
+        height: auto;
+        padding: 3rem;
+    }
+
+    .whatIDoContainer {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .bloc4Container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "title title"
+            "c1 c2"
+            "c3 c4";
+    }
+
+    .container1,
+    .container3{
+        margin-left: auto;
+        margin-right: 0.652rem;
+    }
+
+    .realContainer {
+        width: 14rem;
+        margin-bottom: 2rem;
+    }
+
+    .imgReal {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    #img1{
+        margin-top: -12px;
+    }
+
+    #img3{
+        margin-top: 0px;
+    }
+
+    .textReal{
+        width: auto;
+    }
+
+    .footerContainer {
+        padding: 2rem 0;
+    }
+
+    .footerText {
+        font-size: 0.875rem;
+    }
+
+    .contactContainer {
+        padding: 3rem 0;
+    }
+
+    .formButton {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .textInfo {
+        font-size: 0.75rem;
+    }
+}
