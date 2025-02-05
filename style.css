@@ -341,11 +341,18 @@ form{
     align-items: center;
 }
 
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .formButton{
     margin: 1.25rem auto;
     background-color: var(--orange);
     padding: 0.75rem 1.75rem;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -472,13 +479,6 @@ button:hover{
     .contactContainer {
         height: auto;
         padding: 2rem;
-    }
-
-    .formGroup {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     #labelMess {
