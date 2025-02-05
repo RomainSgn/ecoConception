@@ -122,7 +122,7 @@ h1{
 
 .textService{
     color: var(--grey);
-    font-size: 0.688rem;
+    font-size: 0.75rem;
     font-family: var(--helvetica);
     text-align: center;
 }
@@ -163,7 +163,7 @@ h3{
 }
 
 .whatIDoText{
-    font-size: 0.688rem;
+    font-size: 0.75rem;
     font-family: var(--helvetica);
     margin-bottom: 0.625rem;
     text-align: center;
@@ -171,7 +171,7 @@ h3{
 }
 
 .contactLink{
-    font-size: 0.688rem;
+    font-size: 0.75rem;
     font-family: var(--helvetica);
     color: #FFFFFF;
 }
@@ -253,7 +253,7 @@ h3{
     width: 16.875rem;
     text-align: center;
     color: var(--grey);
-    font-size: 0.688rem;
+    font-size: 0.75rem;
     font-family: var(--helvetica);
 }
 
