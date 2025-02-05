@@ -70,13 +70,10 @@ h1{
     background-color: var(--orange);
     padding: 0.75rem 1.75rem;
     border-radius: 2.5rem;
-}
-
-.contactButton a{
     font-size: 1rem;
     font-weight: 700;
     font-family: var(--helvetica);
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
